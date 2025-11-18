@@ -35,6 +35,31 @@ RARITIES = {
 }
 
 
+# Add near your constants
+RARITY_ORDER = ["C", "UC", "R", "VR", "L"]  # low → high
+
+def get_allowed_tanks(tank_df: pd.DataFrame, premium: bool) -> pd.DataFrame:
+    """Premium = all tanks.
+       No premium + VR → up to VR.
+       No premium + R  → up to R.
+       Else            → C & UC only.
+    """
+    if premium:
+        return ALL_TANKS
+
+    rarity = str(tank_df["RARITY"].iloc[0])
+    if rarity == "VR":
+        cap = "VR"
+    elif rarity == "R":
+        cap = "R"
+    else:
+        return ALL_TANKS[ALL_TANKS["RARITY"].isin(["C", "UC"])]
+
+    cap_idx = RARITY_ORDER.index(cap)
+    allowed_set = set(RARITY_ORDER[:cap_idx + 1])
+    return ALL_TANKS[ALL_TANKS["RARITY"].isin(allowed_set)]
+
+
 def _calculate_cost(stars: int, **kwargs) -> int:
     add_ons = 0
     return stars*3000 + add_ons
@@ -68,31 +93,49 @@ def get_tank_df(name: str) -> pd.DataFrame:
 
 
 def gacha_main(tank_df: pd.DataFrame, premium: bool = False):
+    # 1) Pool restriction by rarity
+    allowed_tanks = get_allowed_tanks(tank_df, premium=premium)
+
+    # 2) Roll mood & upgrade math
     cr = float(tank_df["TCR"].iloc[0])
     mood_d6 = 1 if premium else rd.randint(1, 6)
     subtractor = SUBTRACTOR_VALUES[mood_d6 - 1]
     roll = rd.randint(1, 100)
 
     multiplier = 0.05 if premium else (0.04 if cr <= 23 else 0.03)
-
     new_tank_cr = cr + (roll - subtractor) * multiplier
-    # quantize DOWN to nearest 0.25 safely
+
+    # Quantize DOWN to nearest 0.25 safely
     target_cr = math.floor(new_tank_cr * 4 + 1e-9) / 4
 
-    # precompute sorted unique CRs
-    cr_vals = np.sort(ALL_TANKS["TCR"].unique())
-
-    # pick the highest available CR ≤ target_cr
+    # 3) Choose CR from the allowed pool only
+    cr_vals = np.sort(allowed_tanks["TCR"].unique())
     eligible = cr_vals[cr_vals <= target_cr]
+
     if eligible.size == 0:
-        # if nothing is ≤ target, fall back to the minimum available
+        # nothing <= target: take the minimum in the allowed pool
         chosen_cr = cr_vals.min()
     else:
         chosen_cr = eligible.max()
 
-    # pull random tank among those with that CR
-    filtered = ALL_TANKS[ALL_TANKS["TCR"].eq(chosen_cr)]
+    # 4) If no tank exactly at chosen_cr (float quirks), step down in 0.25 until found
+    #    (guard against infinite loop by flooring at min)
+    min_allowed = cr_vals.min()
+    current = chosen_cr
+    while True:
+        filtered = allowed_tanks[allowed_tanks["TCR"].eq(current)]
+        if not filtered.empty:
+            break
+        current = round(current - 0.25, 2)  # keep tidy decimals
+        if current < min_allowed:
+            # fallback: pick the closest lower-or-equal available CR
+            current = min_allowed
+            filtered = allowed_tanks[allowed_tanks["TCR"].eq(current)]
+            break
+
+    # 5) Reveal random pick at that CR
     fifa_shit(filtered.sample(1))
+
 
 
 
