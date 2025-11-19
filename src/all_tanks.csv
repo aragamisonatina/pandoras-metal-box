@@ -1,0 +1,109 @@
+TANK,EDITION,DIVISION,CLASS,TOCR,TDCR,TCR,STARS,RARITY,OPERATOR
+CA Lorraine,1. Starter,AA,TD,12,12,12,1,VR,Lerulce
+Type 62,1. Starter,ED,L,14.5,12.5,13.5,1,C,Jishi
+PT-76B,1. Starter,RS,L,19.5,9,14.25,1.5,C,Armatan Union
+ASU-85,1. Starter,RS,TD,18,13,15.5,1.5,C,Armatan Union
+IS-2,1. Starter,RS,H,12.5,20.5,16.5,1.5,C,Armatan Union
+Type 5 Chi-Ri,1. Starter,ED,M,21.5,12.5,17,2,VR,Sakurata
+Panther A,1. Starter,AA,M,17.5,16.5,17,2,C,Leoschland
+Jagdtiger,1. Starter,AA,TD,13.5,20.5,17,2,R,Leoschland
+Type 5 Ho-Ri,1. Starter,ED,TD,13,21,17,2,VR,Sakurata
+Type 83 SPH,1. Starter,ED,SPH,22.5,13.5,18,2,UC,Jishi
+2S3M Akatsiya,1. Starter,RS,SPH,26.5,11.5,19,2,C,Armatan Union
+AMX M4,1. Starter,AA,M,20,18.5,19.25,2,VR,Lerulce
+Type 61,1. Starter,ED,MBT,22.5,16.5,19.5,2,UC,Sakurata
+Tiger II,1. Starter,AA,H,19,20,19.5,2,UC,Leoschland
+T-54,1. Starter,RS,M,19.5,20.5,20,2.5,C,Armatan Union
+BT-7,???,RS,L,11.5,6.5,9,0.5,C,Armatan Union
+SU-122P,Red Star Exp,RS,TD,8,12,10,0.5,VR,Armatan Union
+SU-85M,Red Star Exp,RS,TD,11,11,11,0.5,UC,Armatan Union
+Type 63,Eclipse Dragon Exp,ED,L,14,9,11.5,1,C,Jishi
+M18 Hellcat,Iron Zephyr Exp,IZ,L,16,7,11.5,1,C,Heurican Federation
+SU-100,Red Star Exp,RS,TD,12,12,12,1,C,Armatan Union
+SU-100P,Red Star Exp,RS,TD,15.25,9.25,12.25,1,VR,Armatan Union
+ISU-122S,Red Star Exp,RS,TD,12,13,12.5,1,UC,Armatan Union
+Semovente 75/46 M43,Aureate Aegis Exp,AA,TD,13,12,12.5,1,R,Iretos
+Type 4 Chi-To,Patreon,ED,M,14.5,11.5,13,1,VR,Sakurata
+T-34-85,Patreon,RS,M,14.5,12.5,13.5,1,C,Armatan Union
+P26/40,Patreon,AA,M,14.5,12.5,13.5,1,UC,Iretos
+Panzer IV H,Patreon,AA,M,15.5,11.5,13.5,1,C,Leoschland
+AMX-13,Patreon,AA,L,16,11.5,13.75,1,C,Lerulce
+Churchill Mk VII,???,FT,H,12,16,14,1.5,C,Kingdom of Chalwick
+A34 Comet I,1. Starter,FT,M,14.5,13.5,14,1.5,C,Kingdom of Chalwick
+Pvkv m/43,Frost Titan Exp,FT,TD,17,11,14,1.5,R,Vritsda
+M36B1,Patreon,IZ,TD,19,9.5,14.25,1.5,UC,Heurican Federation
+Type 58,Patreon,ED,M,16.5,12.5,14.5,1.5,UC,Jishi
+ARL-44,Patreon,AA,H,13.5,15.5,14.5,1.5,R,Lerulce
+ISU-152M,Red Star Exp,RS,TD,17,12,14.5,1.5,C,Armatan Union
+AMX-13-90,Aureate Aegis Exp,AA,L,18,11.5,14.75,1.5,UC,Lerulce
+2S1 Gvozdika,Red Star Exp,RS,SPH,20.5,9.5,15,1.5,C,Armatan Union
+IS-1,Red Star Exp,RS,H,13.5,16.5,15,1.5,UC,Armatan Union
+T-44,Red Star Exp,RS,M,14.5,15.5,15,1.5,C,Armatan Union
+Challenger,Frost Titan Exp,FT,M,17,13.5,15.25,1.5,UC,Kingdom of Chalwick
+BTR-80A,IFV Exp,RS,IFV,19.5,11,15.25,1.5,C,Armatan Union
+M41 Walker Bulldog,1. Starter,IZ,L,20,11,15.5,1.5,C,Heurican Federation
+FV4101 Charioteer Mk 7,Patreon,FT,M,16.5,14.5,15.5,1.5,UC,Kingdom of Chalwick
+Strv 74,1. Starter,FT,L,19.5,12.5,16,1.5,UC,Vritsda
+Sherman Firefly,Frost Titan Exp,FT,M,18.5,13.5,16,1.5,C,Kingdom of Chalwick
+M4A2 (76) W,Patreon,IZ,M,19.5,12.5,16,1.5,C,Heurican Federation
+M4A3 (76) W,Patreon,IZ,M,19.5,12.5,16,1.5,C,Heurican Federation
+M4A3E2 Jumbo,1. Starter,IZ,H,17.5,15.5,16.5,1.5,UC,Heurican Federation
+Ratel 90,Aureate Aegis Exp,AA,IFV,20,13,16.5,1.5,UC,Musabligh
+2S4 Tyulpan,Red Star Exp,RS,SPH,22,12,17,2,UC,Armatan Union
+M26 Pershing,1. Starter,IZ,M,19,16,17.5,2,C,Heurican Federation
+IS-3,Red Star Exp,RS,H,11.5,23.5,17.5,2,C,Armatan Union
+T-44-100,Red Star Exp,RS,M,17.5,17.5,17.5,2,VR,Armatan Union
+FV4005,1. Starter,FT,TD,22.75,12.75,17.75,2,VR,Kingdom of Chalwick
+T28,1. Starter,IZ,SH,12,24,18,2,VR,Heurican Federation
+JPz 4-5,Aureate Aegis Exp,AA,TD,23,13,18,2,UC,Leoschland
+ST-A1,Eclipse Dragon Exp,ED,MBT,20.5,15.5,18,2,VR,Sakurata
+Conway,Frost Titan Exp,FT,TD,16.5,19.5,18,2,VR,Kingdom of Chalwick
+Tiger E,Patreon,AA,H,17.5,18.5,18,2,C,Leoschland
+IS-6,Red Star Exp,RS,H,14.5,21.5,18,2,VR,Armatan Union
+TOG II,1. Starter,FT,SH,17,19.5,18.25,2,VR,Kingdom of Chalwick
+M109A1 Paladin,1. Starter,IZ,SPH,24.5,12.5,18.5,2,C,Heurican Federation
+IS-4M,Red Star Exp,RS,H,12.5,24.5,18.5,2,UC,Armatan Union
+SU-122-54,Red Star Exp,RS,TD,21,16,18.5,2,R,Armatan Union
+FV4202,Frost Titan Exp,FT,MBT,20,18,19,2,VR,Kingdom of Chalwick
+Tortoise,Frost Titan Exp,FT,TD,16,22,19,2,VR,Kingdom of Chalwick
+FV4007 Centurion Mk 2,1. Starter,FT,MBT,20.5,18.5,19.5,2,UC,Kingdom of Chalwick
+T32E1,Iron Zephyr Exp,IZ,H,14.5,24.5,19.5,2,VR,Heurican Federation
+PT-76E,Red Star 2020s,RS,L,28,12.5,20.25,2.5,C,Armatan Union
+FV4007 Centurion Mk 3,Frost Titan Exp,FT,MBT,21.5,19.5,20.5,2.5,C,Kingdom of Chalwick
+Object 268,Red Star Exp,RS,TD,23,18,20.5,2.5,VR,Armatan Union
+T29,Iron Zephyr Exp,IZ,H,20.5,21.5,21,2.5,VR,Heurican Federation
+T30,Iron Zephyr Exp,IZ,H,20.5,22.5,21.5,2.5,VR,Heurican Federation
+T34,Iron Zephyr Exp,IZ,H,19.5,23.5,21.5,2.5,VR,Heurican Federation
+Bkan 1C,Frost Titan Exp,FT,SPH,30,14.5,22.25,2.5,R,Vritsda
+M103,Iron Zephyr Exp,IZ,H,23.5,21.5,22.5,2.5,UC,Heurican Federation
+IT-1,Red Star Exp,RS,TD,27.5,18,22.75,2.5,UC,Armatan Union
+Object 685,Red Star Exp,RS,L,33,12.5,22.75,2.5,VR,Armatan Union
+T-62,Red Star Exp,RS,MBT,23.5,22,22.75,2.5,C,Armatan Union
+BMP-1,Red Star Exp,RS,IFV,32,14.5,23.25,3,C,Armatan Union
+AMX-30,Aureate Aegis Exp,AA,MBT,27.5,20,23.75,3,C,Lerulce
+Leopard 1,Aureate Aegis Exp,AA,MBT,30,19,24.5,3,C,Leoschland
+2A3 Kondensator 2P,Red Star: Lyubov,RS,SPH,31.5,17.5,24.5,3,VR,Armatan Union
+BMP-2,Red Star Exp,RS,IFV,34.5,15,24.75,3,C,Armatan Union
+Centurion Mk 10,Frost Titan Exp,FT,MBT,29.5,20.5,25,3,UC,Kingdom of Chalwick
+Object 906,Red Star Exp,RS,L,29,21.5,25.25,3,VR,Armatan Union
+T-10M,Red Star Exp,RS,H,24.5,27,25.75,3,UC,Armatan Union
+T-55A,Red Star Exp,RS,MBT,30.5,21,25.75,3,C,Armatan Union
+OF-40,Aureate Aegis Exp,AA,MBT,31,21,26,3.5,R,Iretos
+IS-7,Red Star Exp,RS,H,25.5,27.5,26.5,3.5,VR,Armatan Union
+Stridsvagn 105,Frost Titan Exp,FT,MBT,31.5,24.5,28,3.5,R,Vritsda
+Object 279,Red Star Exp,RS,H,28.5,28,28.25,3.5,VR,Armatan Union
+Leopard 1A5,Aureate Aegis Exp,AA,MBT,36,21,28.5,3.5,C,Leoschland
+OF-40 Mk. 2A,Aureate Aegis Exp,AA,MBT,36,22,29,3.5,R,Iretos
+T-62M-1,Red Star Exp,RS,MBT,29.5,30,29.75,3.5,UC,Armatan Union
+T-64A,Red Star Exp,RS,MBT,34.5,27,30.75,4,C,Armatan Union
+KPz-70,Aureate Aegis Exp,AA,MBT,39,24,31.5,4,R,Leoschland
+T-72A,Red Star Exp,RS,MBT,35.5,30,32.75,4,C,Armatan Union
+M60A3 TTS,Iron Zephyr Exp,IZ,MBT,38.5,28.5,33.5,4.5,C,Heurican Federation
+T-64B,Red Star Exp,RS,MBT,35.5,33,34.25,4.5,C,Armatan Union
+M1A1 Abrams,Iron Zephyr Exp,IZ,MBT,38,34.5,36.25,4.5,C,Heurican Federation
+T-80B,Red Star Exp,RS,MBT,38,34.5,36.25,4.5,C,Armatan Union
+Leopard 2A4,Aureate Aegis Exp,AA,MBT,38,35,36.5,4.5,C,Leoschland
+T-80U,Red Star Exp,RS,MBT,38,37.5,37.75,5,UC,Armatan Union
+Leopard 2A5,Aureate Aegis Exp,AA,MBT,39,38,38.5,5,UC,Leoschland
+Leopard 2A6,Aureate Aegis 2000s,AA,MBT,40,39,39.5,5,UC,Leoschland
+Challenger 2,Iron Zephyr Exp,IZ,MBT,38,42.5,40.25,5,UC,Kingdom of Chalwick
