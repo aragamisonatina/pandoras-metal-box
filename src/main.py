@@ -105,7 +105,16 @@ def fifa_shit(tank_df : pd.DataFrame):
     time.sleep(1)
     print(f'\n*** {str(tank_df["STARS"].iloc[0]).upper()} STARS ***')
 
-    time.sleep(5)
+    
+    time.sleep(1.5)
+
+    # Progress bar during the 5-second wait
+    print('\nRevealing operator... ', end='', flush=True)
+    for i in range(35):
+        print('█', end='', flush=True)
+        time.sleep(0.1)
+    print()  # New line after progress bar
+    
     print(f'\n*** {tank_df["OPERATOR"].iloc[0].upper()} ***')
 
     time.sleep(1.46)

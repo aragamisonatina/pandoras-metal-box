@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('all_tanks.csv', '.')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
